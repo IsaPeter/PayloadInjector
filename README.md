@@ -4,6 +4,8 @@
 
 **Payload Injector** is a Python module designed for modifying HTTP requests by injecting payloads into various parameters. It is useful for penetration testing, security research, and debugging web applications.
 
+The library relies on the followin HTTPRequest library: [https://github.com/IsaPeter/httplib.git](https://github.com/IsaPeter/httplib.git)
+
 ## Features
 
 - Identifies injection points in **path**, **query parameters**, **request body**, **headers**, and **cookies**.
@@ -15,14 +17,6 @@
 - Allows modifying the HTTP request method.
 - Detects available injection points dynamically.
 
-## Installation
-
-Clone the repository:
-
-```sh
-git clone https://github.com/yourusername/payload-injector.git
-cd payload-injector
-```
 
 ## Usage
 
